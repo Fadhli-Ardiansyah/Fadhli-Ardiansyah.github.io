@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #161515;
+}
+
+.navbar-brand {
+  font-family: viga;
+}
+
+.navbar-nav {
+  margin-left: 450px;
+}
+
+span {
+  color: rgb(44, 44, 175);
+}
+
+.navbar ul li a {
+  font-weight: 500;
+  margin-left: 40px;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  color: rgb(179, 179, 179);
+}
+
+.kata1 {
+  width: 500px;
+  color: white;
+  margin-top: 100px;
+  float: left;
+}
+
+.kata1 p {
+  color: rgb(138, 138, 138);
+}
+
+.judul span {
+  font-size: 20px;
+  font-family: viga;
+  font-weight: 900;
+}
+
+.back1 {
+  margin-top: 30px;
+  margin-left: 30vh;
+  z-index: 999999;
+  position: relative;
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  background-image: linear-gradient(rgb(29, 29, 29), #161515);
+}
+
+.back1 img {
+  z-index: 3;
+  width: 500px;
+  left: -75px;
+  top: -60px;
+  justify-content: center;
+  position: absolute;
+}
+
+.bintang1 {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.bintang2 {
+  position: absolute;
+  top: 150px;
+  left: 230px;
+}
+.bintang3 {
+  top: 250px;
+  position: absolute;
+}
+
+/* mobile */
+@media (max-width: 500px) {
+  .back1 {
+    display: flex;
+    margin: 20px 11vh;
+  }
+}
