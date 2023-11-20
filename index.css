@@ -4,6 +4,7 @@
 }
 
 body {
+  overflow: hidden;
   background-color: #161515;
 }
 
@@ -81,10 +82,24 @@ span {
   position: absolute;
 }
 
+
+
+.tombol{
+  background-color:rgb(32, 32, 32);
+  color:rgb(44, 44, 175);
+  font-weight:500;
+}
+
+.wa{
+  margin-right:15px;
+}
+
+
+
 /* mobile */
 @media (max-width: 500px) {
   .back1 {
     display: flex;
-    margin: 20px 11vh;
+    margin: 20px 8vh;
   }
 }
