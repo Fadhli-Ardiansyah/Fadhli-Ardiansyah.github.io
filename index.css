@@ -86,24 +86,30 @@ span {
   color: rgb(44, 44, 175);
 }
 
+.tombol1 {
+  
+  position: relative;
+  z-index: 999;
+  display: flex;
+}
+
 .tombol:hover {
   color: rgb(44, 44, 175);
 }
 
-.logo-donwload{
-margin-bottom:6px;
+.logo-donwload {
+  margin-bottom: 6px;
 }
 
-.sosial{
-  position: absolute;
-  left:200px;
-  bottom:70px;
-  text-decoration: none;
-  overflow: hidden;
+.wa{
+  margin-right:30px;
 }
 
-.ins{
-  text-decoration: none;
+.instagram,
+.wa {
+  position: relative;
+  bottom: 12px;
+  right: 60px;
 }
 
 /* mobile */
