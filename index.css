@@ -81,6 +81,31 @@ span {
   position: absolute;
 }
 
+.tombol {
+  background-color: rgb(28, 28, 28);
+  color: rgb(44, 44, 175);
+}
+
+.tombol:hover {
+  color: rgb(44, 44, 175);
+}
+
+.logo-donwload{
+margin-bottom:6px;
+}
+
+.sosial{
+  position: absolute;
+  left:200px;
+  bottom:70px;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.ins{
+  text-decoration: none;
+}
+
 /* mobile */
 @media (max-width: 500px) {
   .back1 {
