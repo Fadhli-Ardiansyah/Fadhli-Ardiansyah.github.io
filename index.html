@@ -11,6 +11,8 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,7 +27,7 @@
   <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg" data-aos="fade-down">
       <div class="container-fluid">
         <a class="navbar-brand text-white" href="#"
           ><h3><span>Fadhli</span> Ardiansyah</h3></a
@@ -53,7 +55,7 @@
 
     <!-- kata kata -->
     <section id="about-me">
-      <div class="container kata1 ms-lg-5">
+      <div class="container kata1 ms-lg-5" data-aos="fade-right">
         <div class="row">
           <div class="col-md">
             <p class="judul"><span> Hi Saya Fadhli Ardiansyah </span></p>
@@ -69,7 +71,10 @@
         </div>
         <div class="row">
           <div class="col">
-            <a href="https://drive.google.com/drive/folders/1S-dh5wK8lMGxk0rygyUg9LJ2jTtRH9SW?usp=drive_link" target="_blank">
+            <a
+              href="https://drive.google.com/drive/folders/1S-dh5wK8lMGxk0rygyUg9LJ2jTtRH9SW?usp=drive_link"
+              target="_blank"
+            >
               <button type="button" class="btn btn-lg tombol">
                 <svg
                   class="logo-donwload"
@@ -135,7 +140,7 @@
         </div>
       </div>
 
-      <div class="container pavatar">
+      <div class="container pavatar" data-aos="fade-left" >
         <div class="row">
           <div class="col-md-12">
             <div class="back1">
@@ -190,5 +195,9 @@
     </section>
     <!-- kata kata  -->
     <div class="clearfix"></div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
