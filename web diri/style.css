@@ -1,0 +1,210 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  height: 1040px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+.container {
+  width: 97%;
+  height: 1000px;
+  margin-left: 20px;
+  margin-top: 25px;
+  box-shadow: 1px 3px 17px;
+  border-radius: 15px;
+}
+
+.name img {
+  width: 100px;
+  margin-left: 15px;
+  float: left;
+  position: absolute;
+}
+
+.name .clear {
+  clear: left;
+}
+
+.name h1 {
+  position: absolute;
+  margin-left: 75px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-image: linear-gradient (#00bcd4, #ffc107);
+}
+
+.name {
+  background-image: linear-gradient(#00bcd4, #ffc107);
+  position: relative;
+  width: 50px;
+  height: 1000px;
+  border-radius: 15px 0 0 15px;
+}
+
+.nav ul li a{
+  color: black;
+}
+
+.nav ul li {
+  display: inline-block;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  transition: 0.3s;
+  position: relative;
+}
+
+.nav ul li:hover {
+  scale: 1.1;
+  border-radius: 20px;
+  background-image: linear-gradient(#00bcd4, #ffc107);
+}
+
+.nav {
+  margin-left: 700px;
+  font-size: 18px;
+}
+
+.foto1 img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: linear-gradient(#00bcd4, #ffc107);
+  box-shadow: 1px 1px 25px;
+  margin-left: 200px;
+  margin-top: 180px;
+  float: left;
+}
+
+.kata {
+  width: 400px;
+  border-radius: 15px;
+  padding-left: 10px;
+  padding-right: 5px;
+  margin-left: 500px;
+  margin-top: 200px;
+  height: 25px;
+}
+
+.kata h2 {
+  padding-bottom: 10px;
+}
+
+.kata h1 {
+  font-size: 40px;
+}
+
+.kata p {
+  padding: 5px;
+}
+
+.write {
+  margin-left: 200px;
+}
+
+.pesanto3,
+.pesanto4 {
+  height: 150px;
+  width: 500px;
+  float: left;
+  position: absolute;
+  margin-left: 800px;
+}
+
+.pesanto4 {
+  margin-top: 500px;
+}
+
+.pesanto1,
+.pesanto2 {
+  float: left;
+  position: absolute;
+  height: 150px;
+  width: 500px;
+  margin-left: 10px;
+}
+
+.pesanto1 {
+  margin-top: 30px;
+}
+
+.pesanto3 {
+  margin-top: 30px;
+}
+
+.pesanto2 {
+  margin-top: 500px;
+}
+
+.pesan1 .write {
+  margin-top: 300px;
+  font-size: large;
+  display: flex;
+}
+
+.pesan1 .write p {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.pesanto1 .wan p {
+  font-size: small;
+  width: 300px;
+  margin-left: 200px;
+}
+
+.pesan2 .web {
+  display: flex;
+  margin-left: 200px;
+}
+
+.pesan2 .web p {
+  padding-left: 10px;
+}
+
+.pesanto2 .wan2 p {
+  font-size: small;
+  width: 300px;
+  padding-top: 10px;
+  margin-left: 200px;
+}
+
+.pesan3 .ecommers {
+  display: flex;
+  margin-top: 300px;
+  font-size: large;
+}
+
+.pesan3 .ecommers p {
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.pesanto3 .wan3 p {
+  font-size: small;
+  width: 300px;
+}
+
+.pesan4 .marketing {
+  display: flex;
+}
+
+.pesan4 .marketing p {
+  padding-left: 10px;
+}
+
+.pesanto4 .wan4 p {
+  font-size: small;
+  width: 300px;
+  padding-top: 10px;
+}
+
+.clear {
+  clear: both;
+}

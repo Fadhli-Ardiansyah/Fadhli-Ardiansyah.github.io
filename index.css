@@ -12,20 +12,25 @@ body {
 }
 
 .navbar-nav {
-  margin-left: 450px;
+  margin-left: 415px;
 }
 
 span {
   color: rgb(44, 44, 175);
 }
 
-.navbar ul li a {
+.navbar {
+  z-index: 999999999;
+  background-color: #161515;
+}
+
+.navbar a {
   font-weight: 500;
   margin-left: 40px;
   color: white;
 }
 
-.navbar ul li a:hover {
+.navbar a:hover {
   color: rgb(179, 179, 179);
 }
 
@@ -111,10 +116,65 @@ span {
   right: 60px;
 }
 
+section#about {
+  padding-top: 40px;
+  margin-top: 60px;
+}
+
+/* project */
+
+section#project {
+  padding-top: 1px;
+}
+
+.pembungkus h2 {
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.pembungkus {
+  width: 825px;
+}
+
+.pj1 {
+  border-radius: 5px;
+  margin-bottom: 150px;
+}
+
+.pj1 img {
+  border-radius: 5px;
+  width: 800px;
+  height: 100%;
+  background-size: cover;
+}
+
+.halaman-selanjutnya {
+  display: flex;
+}
+
+.halaman-selanjutnya a {
+  margin-top: 23px;
+  color: rgb(179, 179, 179);
+  text-decoration: none;
+}
+
+.halaman-selanjutnya .open-halaman {
+  margin-top: 20px;
+}
+
 /* mobile */
 @media (max-width: 500px) {
   .back1 {
     display: flex;
     margin: 20px 8vh;
+  }
+
+  .pj1 img {
+    width: 400px;
+  }
+
+  .pembungkus {
+    width: 100%;
   }
 }
