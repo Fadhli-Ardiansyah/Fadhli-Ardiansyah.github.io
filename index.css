@@ -166,8 +166,8 @@ section#project {
 
 /* papan rekrut */
 
-section#tools{
-  padding-top:150px;
+section#tools {
+  padding-top: 150px;
 }
 
 .rekrut {
@@ -179,7 +179,7 @@ section#tools{
 .tool1 img,
 .tool2 img,
 .tool3 img,
-.tool4 img{ 
+.tool4 img {
   border-radius: 10px;
   margin-top: 10px;
   background-position: center;
@@ -188,15 +188,15 @@ section#tools{
   height: 80px;
 }
 
-.bekerja p{
-  padding-right:30px;
-  margin-top:15px;
+.bekerja p {
+  padding-right: 30px;
+  margin-top: 15px;
 }
 
-.tombol-rekrut{
-  margin-right:200px;
-  color:white;
-  background-color:rgb(44, 44, 175);
+.tombol-rekrut {
+  margin-right: 200px;
+  color: white;
+  background-color: rgb(44, 44, 175);
 }
 
 /* akhir */
@@ -214,5 +214,45 @@ section#tools{
 
   .pembungkus {
     width: 100%;
+  }
+
+  .rekrut {
+    margin-left: 20px;
+    width: 500px;
+  }
+
+  .navbar-nav {
+    margin: 0;
+  }
+
+  section#project .pembungkus {
+    margin-left: 50px;
+  }
+
+  .kata1 {
+    margin-left: 50px;
+    width: 500px;
+  }
+
+  .navbar-toggler {
+    margin-right: 50px;
+  }
+
+  .judul-tools {
+    margin-left: 170px;
+  }
+
+  .bekerja p{
+    left:50px;
+    position: absolute;
+  }
+
+  .bekerja a button {
+    width: 200px;
+    margin-left:600px;
+  }
+
+  .navbar-toggler{
+      background-color:rgb(138, 138, 138)  ;
   }
 }
