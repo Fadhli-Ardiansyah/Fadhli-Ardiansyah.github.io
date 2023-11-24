@@ -5,7 +5,7 @@
 
 body {
   background-color: #161515;
-  min-height: 9999px;
+  height:3000px;
 }
 
 .navbar-brand {
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-nav {
-  margin-left: 415px;
+  margin-left: 430px;
 }
 
 span {
@@ -26,8 +26,8 @@ span {
 }
 
 .navbar a {
+  margin-left:30px;
   font-weight: 500;
-  margin-left: 40px;
   color: white;
 }
 
@@ -188,6 +188,10 @@ section#tools {
   height: 80px;
 }
 
+.bekerja{
+  display: flex;
+}
+
 .bekerja p {
   padding-right: 30px;
   margin-top: 15px;
@@ -203,56 +207,128 @@ section#tools {
 
 /* mobile */
 @media (max-width: 500px) {
-  .back1 {
-    display: flex;
-    margin: 20px 8vh;
+
+
+
+/* project */
+
+
+.pj1 img {
+  width:255px;
+}
+
+.pembungkus {
+  margin-left:0;
+  width: 200px;
+}
+
+
+/* akhir project */
+
+
+  /* tool */
+
+  .rekrut  img{
+    width:40px;
+    height:40px;
   }
 
-  .pj1 img {
-    width: 400px;
+
+  .rekrut{
+    height:50px;
+    width: 280px;
   }
 
-  .pembungkus {
-    width: 100%;
+  .bekerja{
+    display: block;
   }
 
-  .rekrut {
-    margin-left: 20px;
-    width: 500px;
+
+  .bekerja a button {
+    width: 200px;
+
+  }
+  
+  /* akhit=r tools */
+
+  /* navbar */
+
+  .navbar-brand h3 {
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
   }
 
   .navbar-nav {
     margin: 0;
   }
 
-  section#project .pembungkus {
-    margin-left: 50px;
-  }
 
   .kata1 {
-    margin-left: 50px;
     width: 500px;
   }
 
+
+
   .navbar-toggler {
-    margin-right: 50px;
+    margin-top: 15px;
+  }
+  /* akhir navbar */
+
+  /* kata kata */
+
+  .grup-kata{
+    margin-top:300px;
+    width:280px;
   }
 
-  .judul-tools {
-    margin-left: 170px;
+  .wa{
+    margin-right:15px;
   }
 
-  .bekerja p{
-    left:50px;
+  .tombol1{
     position: absolute;
+    left:240px;
+  }
+  /* akhir kata  */
+
+  /* avatar */
+
+    .back1 {
+    display: flex;
+    margin: 20px 8vh;
   }
 
-  .bekerja a button {
-    width: 200px;
-    margin-left:600px;
+  .back1 img{
+    top:-80px;
+    left:-85px;
+    width:400px;
   }
 
-  .navbar-toggler{
-      background-color:rgb(138, 138, 138)  ;
+  .back1{
+    position: absolute;
+    top:100px;
+    left:-28px;
+    height:360px;
+    width:230px;
   }
+
+
+  .bintang1{
+    display:none;
+  }
+
+
+  .bintang2{
+    display:none;
+    top:0;
+    left:85px;
+  }
+
+  .bintang3{
+    display:none;
+  }
+
+
+  /* akhir avatar */
 }
