@@ -15,13 +15,18 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="style.css" />
     <title>Fadhli Ardiansyah</title>
   </head>
   <body>
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="600">
       <div class="container">
         <a class="navbar-brand" href="#"> <span>Fadhli</span> Ardiansyah</a>
         <button
@@ -134,7 +139,7 @@
         </div>
       </div>
 
-      <div class="col avatar">
+      <div class="col avatar" data-aos="fade-left"   data-aos-duration="1000">
         <img src="foto/group_1.png" alt="" />
       </div>
     </section>
@@ -143,14 +148,14 @@
     <!-- project -->
 
     <section id="project">
-      <div class="container">
+      <div class="container" >
         <div class="row ml-4">
           <div class="col text-center text-white">
             <h4>MY PROJECT</h4>
           </div>
           <div class="row pt-3 justify-content-evenly">
             <div class="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img
                   src="project/Screenshot 2023-11-21 235447.png"
                   class="card-img-top"
@@ -175,7 +180,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img
                   src="project/Screenshot 2023-10-30 081101.png"
                   class="card-img-top"
@@ -200,7 +205,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img
                   src="project/Screenshot 2023-10-30 081216.png"
                   class="card-img-top"
@@ -225,7 +230,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img
                   src="project/Screenshot 2023-10-30 081429.png"
                   class="card-img-top"
@@ -250,7 +255,7 @@
               </div>
             </div>
             <div class="col-md-4 mb-4">
-              <div class="card">
+              <div class="card" data-aos="zoom-in" data-aos-duration="1000">
                 <img
                   src="project/Screenshot 2023-11-21 235352.png"
                   class="card-img-top"
@@ -292,26 +297,25 @@
         </div>
         <div class="col tools d-flex justify-content-center">
           <div class="row atasr justify-content-center">
-            <div class="kotak-tools justify-content-between">
-              <div class="col">
+            <div class="kotak-tools justify-content-between"  data-aos="zoom-in" data-aos-duration="600">
+              <div class="col" data-aos="fade-right" data-aos-duration="1000">
                 <img src="tools/html.png" alt="" />
               </div>
-              <div class="col">
+              <div class="col" data-aos="fade-down" data-aos-duration="1000">
                 <img src="tools/css.png" alt="" />
               </div>
-              <div class="col">
+              <div class="col"  data-aos="fade-down" data-aos-duration="1000">
                 <img src="tools/bootstrap.png" alt="" />
               </div>
-              <div class="col">
+              <div class="col"  data-aos="fade-left" data-aos-duration="1000">
                 <img src="tools/bootstrap.jpeg" alt="" />
               </div>
             </div>
 
             <div class="rekrut">
-              <p>Tertarik Bekerja Bersama saya?</p>
+              <p class="katar" data-aos="fade-right" data-aos-duration="1000">Tertarik Bekerja Bersama saya?</p>
               <a href="mailto:dilahfadhli5@gmail.com">
-
-                <button type="button" class="btn btn-lg btn-dark">
+                <button type="button" class="btn btn-lg btn-dark"  data-aos="fade-left" data-aos-duration="1000">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="20"
@@ -340,5 +344,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
