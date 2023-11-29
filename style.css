@@ -1,6 +1,5 @@
 body {
   background-color: #161515;
-  height: 5000px;
 }
 
 /* navbar */
@@ -107,7 +106,7 @@ section#about {
 
 .card {
   background-color: #161515;
-  box-shadow:1px 2px 25px black;
+  box-shadow: 1px 2px 25px black;
 }
 
 .card-body .btn {
@@ -115,106 +114,71 @@ section#about {
   color: rgb(44, 44, 175);
 }
 
-
 section {
   padding-top: 6rem;
-  margin-top:150px;
+  margin-top: 150px;
 }
 
-.card-body .btn svg{
-  margin-right:5px;
-  margin-bottom:3px;
-
+.card-body .btn svg {
+  margin-right: 5px;
+  margin-bottom: 3px;
 }
 
 /* akhir project */
 
-
 /* tools */
 
+.tools img {
+  width: 80px;
+  height: 80px;
+  margin-left: 35px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 
-  .tools img{
-    width:80px;
-    height:80px;
-    margin-left:35px;
-    margin-top:10px;
-    border-radius:5px;
-  }
+.atasr {
+  position: relative;
+}
 
-  .atasr    {
-    position: relative;
-  }
+.kotak-tools {
+  margin-top: 20px;
+  height: 100px;
+  display: flex;
+  width: 600px;
+  background-color: #161515;
+  box-shadow: 2px 3px 25px black;
+  border-radius: 5px;
+}
 
-  .kotak-tools{
-    margin-top:20px;
-    height: 100px;
-    display: flex;
-    width:600px;
-    background-color:#161515;
-    box-shadow:2px 3px 25px black;
-    border-radius:5px;
-  }
-  
+.rekrut p {
+  position: absolute;
+  top: 24px;
+  color: rgb(138, 138, 138);
+}
 
-  .rekrut p{
-    position: absolute;
-    top:24px;
-      color: rgb(138, 138, 138);
-  }
+.rekrut .btn {
+  font-weight: 300;
+  background-color: rgb(44, 44, 175);
+  color: #161515;
+  position: absolute;
+  left: 230px;
+  top: 10px;
+}
 
-  .rekrut .btn{
-    font-weight: 300;
-    background-color:rgb(44, 44, 175);
-    color: #161515;
-    position: absolute;
-    left:230px;
-    top:10px;
-  }
-
-  .tools  .rekrut{  
-    position: absolute;
-    top:125px;
-    
-  }
+.tools .rekrut {
+  position: absolute;
+  top: 125px;
+}
 
 /* akhir tools */
 
+footer h6 a{
+  text-decoration: none;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer h6 {
+  color: rgb(138, 138, 138);
+}
 
 /* mobile */
 
@@ -222,7 +186,7 @@ section {
   /* about */
   section#about {
     display: grid;
-    grid-template-rows: 1fr ;
+    grid-template-rows: 1fr;
   }
 
   .avatar img {
@@ -260,37 +224,34 @@ section {
 
   /* project */
 
-  .card{
-    margin-left:25px;
+  .card {
+    margin-left: 25px;
   }
 
   /* akhir project */
 
   /* tools */
 
-  .tools img{
-    width:50px;
-    height:50px;
-    margin-left:10px;
-    margin-top:10px;
+  .tools img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
   }
 
-
-  .kotak-tools{
-    height:70px;
-    width:300px;
+  .kotak-tools {
+    height: 70px;
+    width: 300px;
   }
 
-
-  .rekrut p{
+  .rekrut p {
     position: absolute;
-    top:-20px;
+    top: -20px;
   }
 
-
-   .rekrut .btn{
+  .rekrut .btn {
     position: absolute;
-    left:10px;
+    left: 10px;
   }
 
   /* akhir tools */
